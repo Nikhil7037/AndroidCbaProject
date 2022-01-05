@@ -26,18 +26,19 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //Displaying Toast with Hello Javatpoint message
-        Toast.makeText(getApplicationContext(),"Hello Javatpoint",Toast.LENGTH_SHORT).show();
+        //Toast.makeText(getApplicationContext(),"Hello Javatpoint",Toast.LENGTH_SHORT).show();
+
     }
 
     public void browser1(View view)
     {
-        Intent browserintent=new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/"));
+        Intent browserintent=new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.uakron.edu/cba/fisher/academics "));
         startActivity(browserintent);
     }
 
     public void browser2(View view)
     {
-        Intent browserintent=new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/"));
+        Intent browserintent=new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.uakron.edu/cba/fisher/ "));
         startActivity(browserintent);
     }
 }
