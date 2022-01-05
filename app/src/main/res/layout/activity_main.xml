@@ -4,37 +4,45 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#A89968"
     android:orientation="vertical"
+    android:paddingTop="70dp"
     tools:context=".MainActivity">
 
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="184dp"
+        android:layout_height="174dp"
         android:layout_gravity="center"
-        android:background="#673AB7"
+        android:background="#041E42"
         android:onClick="browser1"
+        android:rotation="0"
         android:src="@drawable/googleimg"
-        android:text="Browser Google" />
+        android:text="Programs"
+        android:textColor="#A89968" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_width="182dp"
+        android:layout_height="157dp"
         android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="#041E42"
         android:onClick="browser2"
-        android:text="Browser Facebook" />
+        android:text="History"
+        android:textColor="#A89968" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_width="178dp"
+        android:layout_height="158dp"
         android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="#041E42"
         android:onClick="browser2"
-        android:text="Browser Test" />
+        android:text="Partners"
+        android:textColor="#A89968" />
 
 
 </LinearLayout>
