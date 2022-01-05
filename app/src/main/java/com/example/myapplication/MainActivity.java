@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
         //Displaying Toast with Hello Javatpoint message
         //Toast.makeText(getApplicationContext(),"Hello Javatpoint",Toast.LENGTH_SHORT).show();
-
+//hello
     }
 
     public void browser1(View view)
