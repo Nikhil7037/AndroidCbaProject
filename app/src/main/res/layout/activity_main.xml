@@ -6,40 +6,41 @@
     android:layout_height="match_parent"
     android:background="#A89968"
     android:orientation="vertical"
-    android:paddingTop="70dp"
+    android:paddingTop="50dp"
     tools:context=".MainActivity">
 
 
     <Button
         android:id="@+id/button"
-        android:layout_width="184dp"
-        android:layout_height="174dp"
-        android:layout_gravity="center"
-        android:background="#041E42"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/custom_rounded_corners"
         android:onClick="browser1"
         android:rotation="0"
+        android:scrollHorizontally="false"
         android:src="@drawable/googleimg"
         android:text="Programs"
         android:textColor="#A89968" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="182dp"
-        android:layout_height="157dp"
-        android:layout_gravity="center"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center|center_horizontal"
         android:layout_marginTop="50dp"
-        android:background="#041E42"
+        android:background="@drawable/custom_rounded_corners"
         android:onClick="browser2"
         android:text="History"
         android:textColor="#A89968" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="178dp"
-        android:layout_height="158dp"
-        android:layout_gravity="center"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="50dp"
-        android:background="#041E42"
+        android:background="@drawable/custom_rounded_corners"
         android:onClick="browser2"
         android:text="Partners"
         android:textColor="#A89968" />
